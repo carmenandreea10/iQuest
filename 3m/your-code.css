@@ -1,0 +1,45 @@
+/* Color for the background */
+body {
+    background-color: #dcdac8 !important;
+}
+
+/* Color for the headings */
+body h1 {
+    color: #999999;
+}
+
+div h2:first-child {
+    color: #999999;
+}
+
+/* First div: Color change for the first list element */
+.selected {
+    background-color: #829a41;    
+    
+}
+
+/* First div: Border removed */
+div:first-of-type {
+    border: none; 
+    box-shadow: none;
+}
+
+/* First div: List elements spacing */
+ul li {
+    padding: 5px;
+    margin: 25px;
+    list-style-type: none;
+
+    
+    
+}
+
+/* Second div: div align & color */
+div:nth-of-type(2) {
+    padding: auto;
+    background-color: rgb(255, 255, 255);
+    
+}
+/* Second div:  remove background-color for list elements & align li*/
+
+
